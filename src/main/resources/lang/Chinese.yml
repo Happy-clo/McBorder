@@ -7,6 +7,8 @@ help:
   - "&7|设置世界边界的中心点"
   - "&c/McBorder(mb) setplayer <player> <size> [time]"
   - "&7|设置玩家所在世界的边界大小并居中"
+  - "&c/McBorder(mb) setplayerworld <player> [size] [world] [time]"
+  - "&7|设置玩家所在世界的边界,有更多可选项"
   - "&c/McBorder(mb) reborder <world>"
   - "&7|重置指定世界的边界"
   - "&c/McBorder(mb) replayer <player>"
@@ -25,6 +27,8 @@ help:
   - "&7|让指定玩家在指定世界的边境里随机传送"
   - "&c/McBorder(mb) reload"
   - "&7|重载插件"
+  - "&c/McBorder(mb) upsetting"
+  - "&7|通过配置文件更新边界"
 
 insufficient-parameters: "&c参数不足"
 insufficient-permissions: "&c权限不足"
